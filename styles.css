@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+    font-family: 'Arvo', serif;
+}
+p {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*landing page*/
+header {
+    height: 100vh;
+    background-image: url("./media/header-background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 75px;
+}
+.title {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 4em;
+}
+.intro {
+    width: 100%;
+    align-self: center;
+    position: relative;
+    top: 200px;
+    color: white;
+}
+
+/*nav grid*/
+.media-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
