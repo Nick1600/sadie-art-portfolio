@@ -49,11 +49,11 @@ header {
 /*nav grid*/
 .media-grid {
     display: grid;
-    grid-template: 25% 25% / 42% 42%;
+    grid-template: 50% 50% / 50% 50%;
     margin-top: 50px;
     margin-left: 10%;
-    width: auto;
-    height: auto;
+    width: 160vh;
+    height: 100vh;
 }
 .media__graphite {
     grid-area: 1 / 1 / 2 / 2;
@@ -67,11 +67,28 @@ header {
 .media__other {
     grid-area: 2 / 2 / 3 / 3;
 }
-.media__background {
+.grid-item, .media__background {
     height: auto;
     width: auto;
     object-fit: cover;
     height: 100%;
     width: 100%;
     padding: 5%;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    opacity: 0.7;
+    position: relative;
+}
+.grid-item h2{
+    position: relative;
+    bottom: 55%;
+}
+
+/*get in touch section*/
+footer {
+    position: relative;
+    top: 30px;
 }
